@@ -52,13 +52,18 @@ This Pony-based Gossip Simulator successfully implements the following features:
 
 ## Running the Project
 To run the project, use the following command:
+
 dosp_project_2 <numNodes> <topology> <algorithm>
+
 Where:
 * numNodes is the number of nodes in the network.
 * topology is one of the following: full, 3D, line, imp3D.
 * algorithm is either gossip or push-sum.
+  
 Example:
+
 project2 100 full gossip
+
 This command will run a simulation with 100 nodes using the full network topology and the gossip algorithm.
 Dependencies
 * Pony Standard Library
