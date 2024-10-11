@@ -26,7 +26,7 @@ This Pony-based Gossip Simulator successfully implements the following features:
    - Convergence detection and reporting
    - Timer-based progress checking
    - Convergence time measurement and reporting
-   -  Nodes can simulate different topologies: Full, 3D Grid, Line, and Imperfect 3D Grid.
+   - Nodes can simulate different topologies: Full, 3D Grid, Line, and Imperfect 3D Grid.
    - Gossip algorithm works for all topologies.
    - Push-sum algorithm runs correctly and converges across various topologies.
    - The system reports the convergence time and the number of nodes that have converged.
@@ -40,8 +40,8 @@ This Pony-based Gossip Simulator successfully implements the following features:
 ## Largest Network Managed
  # For Gossip Algorithm:
     -  Full Network: Successfully ran with up to 10000 nodes.
-    - 3D Grid: Managed a network with up to 20000 nodes.
-    - Line Network: Handled 50000 nodes.
+    -  3D Grid: Managed a network with up to 20000 nodes.
+    -  Line Network: Handled 50000 nodes.
     -  Imperfect 3D Grid: Successfully ran with 20000 nodes.
  # For Push-Sum Algorithm:
     - Full Network: Successfully ran with up to 10000 nodes.
@@ -52,16 +52,12 @@ This Pony-based Gossip Simulator successfully implements the following features:
 
 ## Running the Project
 To run the project, use the following command:
-php
-Copy code
 dosp_project_2 <numNodes> <topology> <algorithm>
 Where:
 * numNodes is the number of nodes in the network.
 * topology is one of the following: full, 3D, line, imp3D.
 * algorithm is either gossip or push-sum.
 Example:
-sql
-Copy code
 project2 100 full gossip
 This command will run a simulation with 100 nodes using the full network topology and the gossip algorithm.
 Dependencies
